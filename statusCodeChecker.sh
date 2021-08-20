@@ -9,7 +9,7 @@ if [[ -z $1 || "$1" == "-h" || "$1" == "--help"]]; then
 	echo -e ""
 	echo -e "${yellow}Programa:${reset}            statusCodechecker.sh"
 	echo -e "${yellow}Criado em:${reset}           07/07/2021"
-	echo -e "${yellow}Ultima modificacao:${reset}  08/07/2021"
+	echo -e "${yellow}Ultima modificacao:${reset}  19/08/2021"
 	echo -e "${yellow}Autoria:${reset}             Lucas Zanoti"
 	echo -e "${yellow}Email:${reset}               lucaszanotti1997@gmail.com"
 	echo -e "${yellow}Discord:${reset}             /zntt#7359"
