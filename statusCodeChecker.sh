@@ -5,7 +5,7 @@ reset="\033[0m"
 yellow="\033[0;33m"
 
 #infoTab
-if [[ -z $1 || "$1" == "-h" ]]; then
+if [[ -z $1 || "$1" == "-h" || "$1" == "--help"]]; then
 	echo -e ""
 	echo -e "${yellow}Programa:${reset}            statusCodechecker.sh"
 	echo -e "${yellow}Criado em:${reset}           07/07/2021"
