@@ -3,7 +3,7 @@
 # Programa:            statusCodechecker.sh
 # Criado em:           07/07/2021
 # Ultima modificacao:  19/08/2021
-# Autoria:             Lucas Zanoti
+# Autoria:             Lucas Zanotti
 # Email:               lucaszanotti1997@gmail.com
 # Discord:             /zntt#7359
 
