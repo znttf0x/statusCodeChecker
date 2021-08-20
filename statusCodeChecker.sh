@@ -1,25 +1,25 @@
 #!/bin/bash
 
-#colors
+# Programa:            statusCodechecker.sh
+# Criado em:           07/07/2021
+# Ultima modificacao:  19/08/2021
+# Autoria:             Lucas Zanoti
+# Email:               lucaszanotti1997@gmail.com
+# Discord:             /zntt#7359
+
+# Colors
 reset="\033[0m"
 yellow="\033[0;33m"
 
-#infoTab
+# Menu
 if [[ -z $1 || "$1" == "-h" || "$1" == "--help"]]; then
-	echo -e ""
-	echo -e "${yellow}Programa:${reset}            statusCodechecker.sh"
-	echo -e "${yellow}Criado em:${reset}           07/07/2021"
-	echo -e "${yellow}Ultima modificacao:${reset}  19/08/2021"
-	echo -e "${yellow}Autoria:${reset}             Lucas Zanoti"
-	echo -e "${yellow}Email:${reset}               lucaszanotti1997@gmail.com"
-	echo -e "${yellow}Discord:${reset}             /zntt#7359"
 	echo -e ""
 	echo -e "${yellow}Opções:${reset}              [-h. --help] Para acessar o menu de ajuda."
 	echo -e "${yellow}Uso:${reset}                 ./statusCodeChecker.sh www.link.com.br /wordlist/directory"
 	exit
 fi
 
-#theProgram
+# Program
 echo -e "${yellow}CODE URL${reset}"
 total=$(wc -l $2 | cut -d " " -f 1)
 attempt="1"
