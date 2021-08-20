@@ -14,8 +14,8 @@ yellow="\033[0;33m"
 # Menu
 if [[ -z $1 || "$1" == "-h" || "$1" == "--help" ]]; then
 	echo -e ""
-	echo -e "${yellow}Opções:${reset}              [-h. --help] Para acessar o menu de ajuda."
-	echo -e "${yellow}Uso:${reset}                 ./statusCodeChecker.sh www.link.com.br /wordlist/directory"
+	echo -e "${yellow}Opções:${reset}  [-h. --help] Para acessar o menu de ajuda."
+	echo -e "${yellow}Uso:${reset}     ./statusCodeChecker.sh www.link.com.br /wordlist/directory"
 	exit
 fi
 
